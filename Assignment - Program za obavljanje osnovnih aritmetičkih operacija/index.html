@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program za racunanje</title>
+</head>
+<body>
+    
+    <script>
+        var firstNumber = prompt("Enter number A:"); 
+        var operationSign = prompt("Enter operation sign:"); 
+        var secondNumber = prompt("Enter number B:");
+
+
+        var result_1 = parseInt(firstNumber) + parseInt(secondNumber);
+        var result_2 = parseInt(firstNumber) - parseInt(secondNumber);
+        var result_3 = parseInt(firstNumber) * parseInt(secondNumber);
+        var result_4 = parseInt(firstNumber) / parseInt(secondNumber);
+
+        if (operationSign == "+") {
+            alert("result is:" + result_1);
+        } else if (operationSign == "-") {
+            alert("result is:" + result_2);
+        } else if (operationSign == "*") {
+            alert("result is:" + result_3);
+        } else if (operationSign == "/") {
+            alert("result is:" + result_4);
+        }
+
+
+    </script>
+</body>
+</html>
